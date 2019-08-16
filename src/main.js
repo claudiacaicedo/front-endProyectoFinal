@@ -20,6 +20,8 @@ import createHorario from './components/createHorario.vue';
 import horario from './components/horario.vue';
 import editHora from './components/editHora.vue';
 
+import generadorP from './components/generadorPatrones.vue'
+
 
 const routes = [
       {
@@ -56,7 +58,12 @@ const routes = [
       name: 'edith',
       path: '/edith/:id',
       component: editHora
-  }
+  },
+  {
+    name: 'generadorp',
+    path: '/generadorp',
+    component: generadorP
+}
 ];
 
 const router = new VueRouter({ mode: 'history', routes: routes});

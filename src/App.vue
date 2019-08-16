@@ -11,6 +11,9 @@
         <li class="nav-item">
           <router-link to="/labs" class="nav-link">Labs</router-link>
         </li>
+        <li class="nav-item">
+          <router-link to="/generadorP" class="nav-link">Generador de Patrones</router-link>
+        </li>
       </ul>
     </nav><br />
     <transition name="fade">
