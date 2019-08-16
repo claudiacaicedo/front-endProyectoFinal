@@ -14,6 +14,9 @@
         <li class="nav-item">
           <router-link to="/generadorP" class="nav-link">Generador de Patrones</router-link>
         </li>
+        <li class="nav-item">
+          <router-link to="/ar" class="nav-link">Realidad Aumentada</router-link>
+        </li>
       </ul>
     </nav><br />
     <transition name="fade">

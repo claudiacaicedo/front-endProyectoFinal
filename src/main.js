@@ -21,6 +21,7 @@ import horario from './components/horario.vue';
 import editHora from './components/editHora.vue';
 
 import generadorP from './components/generadorPatrones.vue'
+import ar from './components/ar.vue'
 
 
 const routes = [
@@ -63,7 +64,12 @@ const routes = [
     name: 'generadorp',
     path: '/generadorp',
     component: generadorP
-}
+  },
+  {
+    name: 'ar',
+    path: '/ar',
+    component: ar
+  }
 ];
 
 const router = new VueRouter({ mode: 'history', routes: routes});
